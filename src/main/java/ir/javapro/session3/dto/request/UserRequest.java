@@ -12,10 +12,10 @@ import lombok.Getter;
 @Builder
 public class UserRequest {
 
-    @NotNull(message = "{username is null}")
-    @NotBlank(message = "{username is blank}")
+    @NotNull(message = "{username.is.null}")
+    @NotBlank(message = "{username.is.blank}")
     private String username ;
-    @NotNull(message = "{password is null}")
-    @NotBlank(message = "{password is blank}")
+    @NotNull(message = "{password.is.null}")
+    @NotBlank(message = "{password.is.blank}")
     private String password;
 }
